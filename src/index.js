@@ -1,6 +1,7 @@
 import './style.css';
 import { createHome } from "./home";
 import { createNavBar } from './navbar';
+import { createMenu } from './menu';
 
 const content = document.getElementById('content');
 
