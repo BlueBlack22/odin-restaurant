@@ -2,7 +2,7 @@ function createHome() {
     const home = document.createElement('div');
     home.classList.add('home')
 
-    const paraMain = createParagraph('Grey Kitten Sushi');
+    const paraMain = createParagraph('Pink Shrimp Sushi');
     paraMain.classList.add('para-main');
     home.appendChild(paraMain);
 
