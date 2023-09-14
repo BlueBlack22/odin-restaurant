@@ -15,6 +15,23 @@ body {
     grid-template-rows: 10vh auto;
 }
 
+#nav-bar {
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tab {
+    border: 1px solid black;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 100%;
+}
+
 #container {
     border: 1px solid blue;
     grid-row: 2 / 3;
