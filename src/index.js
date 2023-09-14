@@ -1,3 +1,4 @@
+import './style.css';
 import { createHome } from "./home";
 
 const content = document.getElementById('content');
