@@ -2,4 +2,9 @@ import './style.css';
 import { createHome } from "./home";
 
 const content = document.getElementById('content');
-content.appendChild(createHome());
+
+const container = document.createElement('div');
+container.setAttribute('id', 'container');
+content.appendChild(container);
+
+container.appendChild(createHome());
