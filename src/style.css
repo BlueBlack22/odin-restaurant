@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+:root {
+    --china-rose: #B15E6C;
+    --puce: #CF8BA9;
+    --pink-lavender: #DCB6D5;
+    --periwinkle-blue: #B3B3F1;
+    --periwinkle-violet: #CEC2FF;
+}
+
 html, 
 body {
     height: 100%;
@@ -6,6 +16,8 @@ body {
 body {
     margin: 0;
     padding: 0;
+    font-family: Mooli, sans-serif;
+    background-color: var(--periwinkle-violet);
 }
 
 #content {
@@ -48,6 +60,7 @@ body {
 
 .para-main {
     font-size: 6rem;
+    color: var(--china-rose);
 }
 
 .para-secondary {
@@ -76,7 +89,7 @@ body {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    gap: 2vh;
 }
 
 .menu-card {
@@ -98,7 +111,7 @@ body {
 .card-title {
     padding: 0;
     margin: 2vh 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     justify-self: center;
     align-self: flex-end;
 }
@@ -106,7 +119,7 @@ body {
 .card-price {
     padding: 0;
     margin: 2vh 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     justify-self: center;
     align-self: flex-end;
