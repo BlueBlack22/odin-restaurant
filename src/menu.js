@@ -11,6 +11,7 @@ function createMenu() {
 
     const menuHeader = document.createElement('p');
     menuHeader.classList.add('menu-header');
+    menuHeader.textContent = 'Menu';
     menu.appendChild(menuHeader);
 
     menu.appendChild(createCard(nigiriImg, 'Nigiri', '$3'));
