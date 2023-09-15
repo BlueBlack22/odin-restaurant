@@ -1,3 +1,5 @@
+import mapImg from './images/map.png';
+
 function createContact() {
     const contact = createDiv('contact');
 
@@ -17,7 +19,7 @@ function createContact() {
     location.appendChild(createParagraph('Location', 'contact-section-header'));
     
     const map = document.createElement('img');
-    map.src = '';
+    map.src = mapImg;
     map.alt = 'map picture';
     location.appendChild(map);
     contact.appendChild(location);
