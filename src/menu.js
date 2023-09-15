@@ -1,3 +1,10 @@
+import nigiriImg from './images/nigiri.png';
+import makiImg from './images/maki.png';
+import uramakiImg from './images/uramaki.png';
+import gunkanMakiImg from './images/gunkan-maki.png';
+import inariIng from './images/inari.png';
+import temariImg from './images/temari.png';
+
 function createMenu() {
     const menu = document.createElement('div');
     menu.setAttribute('id', 'menu');
@@ -6,12 +13,12 @@ function createMenu() {
     menuHeader.classList.add('menu-header');
     menu.appendChild(menuHeader);
 
-    menu.appendChild(createCard('', 'Nigiri', '$3'));
-    menu.appendChild(createCard('', 'Maki', '$2'));
-    menu.appendChild(createCard('', 'Uramaki', '$4'));
-    menu.appendChild(createCard('', 'Gunkan Maki', '$5'));
-    menu.appendChild(createCard('', 'Inari', '$3'));
-    menu.appendChild(createCard('', 'Temari', '$4'));
+    menu.appendChild(createCard(nigiriImg, 'Nigiri', '$3'));
+    menu.appendChild(createCard(makiImg, 'Maki', '$2'));
+    menu.appendChild(createCard(uramakiImg, 'Uramaki', '$4'));
+    menu.appendChild(createCard(gunkanMakiImg, 'Gunkan Maki', '$5'));
+    menu.appendChild(createCard(inariIng, 'Inari', '$3'));
+    menu.appendChild(createCard(temariImg, 'Temari', '$4'));
 
     return menu;
 };
