@@ -10,7 +10,7 @@ function createContact() {
     
     const hoursList = document.createElement('ul');
     hoursList.appendChild(createLi('Monday: closed'));
-    hoursList.appendChild(createLi('Monday - Friday: 1pm - 9pm'));
+    hoursList.appendChild(createLi('Tuesday - Friday: 1pm - 9pm'));
     hoursList.appendChild(createLi('Saturday - Sunday: 2pm - 10pm'));
     hours.appendChild(hoursList);
     contact.appendChild(hours);

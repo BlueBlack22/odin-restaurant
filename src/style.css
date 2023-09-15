@@ -111,3 +111,31 @@ body {
     justify-self: center;
     align-self: flex-end;
 }
+
+#contact {
+    border: 1px solid black;
+    padding: 2vh;
+}
+
+.contact-header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-section-header {
+    font-size: 2rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.contact-location > img {
+    padding: 0 2vh;
+}
