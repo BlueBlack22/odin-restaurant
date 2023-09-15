@@ -2,6 +2,7 @@ import './style.css';
 import { createHome } from "./home";
 import { createNavBar } from './navbar';
 import { createMenu } from './menu';
+import { createContact } from './contact';
 
 const content = document.getElementById('content');
 
@@ -39,4 +40,4 @@ homeTab.addEventListener('click', (e) => createPage('home'));
 const contactTab = document.getElementById('contact-tab');
 contactTab.addEventListener('click', (e) => createPage('contact'));
 
-createPage('menu');
+createPage('contact');

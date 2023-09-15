@@ -60,7 +60,7 @@ body {
 
 #menu {
     border: 1px solid red;
-    padding: 3vh 0;
+    padding: 3vh 1vh;
     min-width: 80vw;
     display: grid;
     grid-template-rows: auto 1fr;
