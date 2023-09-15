@@ -14,12 +14,17 @@ function createMenu() {
     menuHeader.textContent = 'Menu';
     menu.appendChild(menuHeader);
 
-    menu.appendChild(createCard(nigiriImg, 'Nigiri', '$3'));
-    menu.appendChild(createCard(makiImg, 'Maki', '$2'));
-    menu.appendChild(createCard(uramakiImg, 'Uramaki', '$4'));
-    menu.appendChild(createCard(gunkanMakiImg, 'Gunkan Maki', '$5'));
-    menu.appendChild(createCard(inariIng, 'Inari', '$3'));
-    menu.appendChild(createCard(temariImg, 'Temari', '$4'));
+    const menuContent = document.createElement('div');
+    menuContent.setAttribute('id', 'menu-content');
+
+    menuContent.appendChild(createCard(nigiriImg, 'Nigiri', '$3'));
+    menuContent.appendChild(createCard(makiImg, 'Maki', '$2'));
+    menuContent.appendChild(createCard(uramakiImg, 'Uramaki', '$4'));
+    menuContent.appendChild(createCard(gunkanMakiImg, 'Gunkan Maki', '$5'));
+    menuContent.appendChild(createCard(inariIng, 'Inari', '$3'));
+    menuContent.appendChild(createCard(temariImg, 'Temari', '$4'));
+
+    menu.appendChild(menuContent);
 
     return menu;
 };
