@@ -39,4 +39,4 @@ homeTab.addEventListener('click', (e) => createPage('home'));
 const contactTab = document.getElementById('contact-tab');
 contactTab.addEventListener('click', (e) => createPage('contact'));
 
-createPage('home');
+createPage('menu');

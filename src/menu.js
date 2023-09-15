@@ -34,7 +34,7 @@ function createCard(img, name, priceValue) {
     card.appendChild(cardImg);
 
     const title = document.createElement('p');
-    title.classList.add(card-title);
+    title.classList.add('card-title');
     title.innerText = name;
     card.appendChild(title);
 
