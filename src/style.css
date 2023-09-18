@@ -21,21 +21,19 @@ body {
 }
 
 #content {
-    border: 1px solid green;
     height: 100%;
     display: grid;
     grid-template-rows: 10vh auto;
 }
 
 #nav-bar {
-    border: 1px solid yellow;
+    background-color: var(--pink-lavender);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav-tab {
-    border: 1px solid black;
     width: 15vw;
     display: flex;
     justify-content: center;
@@ -44,8 +42,11 @@ body {
     height: 100%;
 }
 
+.nav-tab:hover {
+    background-color: var(--puce);
+}
+
 #container {
-    border: 1px solid blue;
     grid-row: 2 / 3;
     display: flex;
     justify-content: center;
@@ -53,7 +54,6 @@ body {
 }
 
 .home {
-    border: 1px solid red;
     padding: 2vw;
     text-align: center;
 }
@@ -72,7 +72,6 @@ body {
 }
 
 #menu {
-    border: 1px solid red;
     padding: 3vh 1vh;
     min-width: 80vw;
     display: grid;
@@ -93,7 +92,6 @@ body {
 }
 
 .menu-card {
-    border: 1px solid black;
     padding: 2vh;
     display: grid;
     grid-template-columns: 1fr auto;
@@ -126,7 +124,6 @@ body {
 }
 
 #contact {
-    border: 1px solid black;
     padding: 2vh;
 }
 
